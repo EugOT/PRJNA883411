@@ -1,3 +1,16 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Rapp.history
+.DS_Store
+*.h5Seurat
+*.Rds
+analysis/figure
+analysis/*png
+analysis/*html
+analysis/*_cache
+analysis/site_libs
 .cache
 .ipython
 .jupyter
