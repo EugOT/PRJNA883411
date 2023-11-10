@@ -7,6 +7,8 @@ library(here)
 library(workflowr)
 analysis_dir <- here("analysis")
 workflowr::wflow_publish(
+  files = here(analysis_dir, "*.Rmd"),
+  all = TRUE,
   seed = reseed,
   verbose = TRUE
 )
